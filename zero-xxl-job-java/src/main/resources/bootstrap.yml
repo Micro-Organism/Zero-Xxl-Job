@@ -1,0 +1,11 @@
+server:
+    port: 8088
+spring:
+    application:
+        name: zero-xxl-job-java
+    profiles:
+        active: dev
+logging:
+    level:
+        com.ramble: debug
+    config: classpath:logback.xml
